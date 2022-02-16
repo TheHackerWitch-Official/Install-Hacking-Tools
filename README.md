@@ -10,8 +10,9 @@ A simple BaSH script that installs programs which are not available in a fresh i
 6. Git
 7. Impacket scripts
 8. Ruby-Full
-9. sqlmap
-10. WinPeas
+9. SecLists
+10. sqlmap
+11. WinPeas
 
 ## How To Use The Script
 Use the following commands on Kali Linux to install the tools.

@@ -1,5 +1,5 @@
 # Install-Hacking-Tools
-A simple BaSH script that installs programs which are not available in a fresh installation of Kali Linux
+A simple BaSH script that installs programs which are not available in a fresh installation of Kali Linux. The script also unzips the famous "rockyou" wordlist and updates your system. Happy Hacking! 
 
 ## Tools
 1. Bloodhound

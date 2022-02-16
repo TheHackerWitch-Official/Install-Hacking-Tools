@@ -2,18 +2,19 @@
 A simple BaSH script that installs programs which are not available in a fresh installation of Kali Linux
 
 ## Tools
-Bloodhound
-Chisel 
-Curl
-CrackMapExec
-Evil-WinRM (clones the repository)
-Impacket scripts
-Git
-Ruby-Full
-sqlmap
-WinPeas
+1. Bloodhound
+2. Chisel 
+3. Crackmapexec
+4. Curl
+5. Evil-WinRM (clones the repository)
+6. Git
+7. Impacket scripts
+8. Ruby-Full
+9. sqlmap
+10. WinPeas
 
-## Installation & Use
+## How To Use The Script
+Use the following commands on Kali Linux to install the tools.
 
 ```bash
 git clone github.com/ch4kra/Install-Hacking-Tools.git

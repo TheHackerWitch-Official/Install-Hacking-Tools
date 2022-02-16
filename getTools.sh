@@ -22,20 +22,15 @@ echo -e "${green}Installed Git.${clearColor}"
 sudo apt install ruby-full -y
 echo -e "${green}Installed Ruby.${clearColor}"
 
-# Create Tools Folder.
-mkdir tools
-echo -e "${green}Creating tools folder.${clearColor}"
-cd tools/
-
-# Get Chisel
+# Install Chisel
 echo -e "${green}Getting Chisel.${clearColor}"
 sudo apt install chisel
 
-# Get Evil-WinRM
-echo -e "${green}Cloning Evil-WinRM. NOT INSTALLING.${clearColor}"
-git clone https://github.com/Hackplayers/evil-winrm.git
+# Install Evil-WinRM
+echo -e "${green}Installing Evil-WinRM.${clearColor}"
+sudo gem install evil-winrm
 
-# Get Bloodhound
+# Install Bloodhound
 echo -e "${green}Getting Bloodhound.${clearColor}"
 sudo apt install bloodhound
 
@@ -43,11 +38,11 @@ sudo apt install bloodhound
 echo -e "${green}Cloning PEASS-ng${clearColor}"
 git clone git@github.com:carlospolop/PEASS-ng.git
 
-# Get CrackMapExec
+# Install CrackMapExec
 echo -e "${green}Getting crackmapexec.${clearColor}"
 sudo apt install crackmapexec
 
-# Get sqlmap
+# Install sqlmap
 echo -e "${green}Getting sqlmap.${clearColor}"
 sudo apt install sqlmap
 

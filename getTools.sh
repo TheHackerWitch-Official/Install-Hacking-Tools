@@ -54,6 +54,11 @@ sudo apt install impacket-scripts -y
 echo -e "${green}Getting SecLists.${clearColor}"
 sudo apt install seclists -y
 
+# Unzip rockyou
+echo -e "${green}Unzipping rockyou.txt.gz in /usr/share/wordlists.${clearColor}"
+cd /usr/share/wordlists
+sudo gzip -d rockyou.txt.gz
+
 # Update Packages
 echo -e "${green}Removing unnecessary files..${clearColor}"
 sudo apt autoremove -y 

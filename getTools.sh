@@ -30,6 +30,10 @@ sudo apt install chisel -y
 echo -e "${green}Installing Evil-WinRM.${clearColor}"
 sudo gem install evil-winrm
 
+# Install gobuster
+echo -e "{green}Installing GoBuster.${clearColor}"
+sudo apt install gobuster -y
+
 # Install Bloodhound
 echo -e "${green}Getting Bloodhound.${clearColor}"
 sudo apt install bloodhound -y

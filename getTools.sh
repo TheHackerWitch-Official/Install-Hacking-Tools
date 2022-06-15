@@ -38,6 +38,10 @@ sudo apt install gobuster -y
 echo -e "${green}Getting Bloodhound.${clearColor}"
 sudo apt install bloodhound -y
 
+# Get Rubeus
+echo -e "${green}Getting Rubeus.${clearColor}"
+git clone https://github.com/GhostPack/Rubeus.git
+
 # Get WinPeas
 echo -e "${green}Cloning PEASS-ng${clearColor}"
 git clone git@github.com:carlospolop/PEASS-ng.git
@@ -62,6 +66,10 @@ sudo apt install seclists -y
 echo -e "${green}Unzipping rockyou.txt.gz in /usr/share/wordlists.${clearColor}"
 cd /usr/share/wordlists
 sudo gzip -d rockyou.txt.gz
+
+# Get WPScan
+echo -e "${green}Getting WPScan.${clearColor}"
+gem install wpscan
 
 # Update Packages
 echo -e "${green}Removing unnecessary files..${clearColor}"

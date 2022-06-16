@@ -42,6 +42,9 @@ sudo apt install bloodhound -y
 echo -e "${green}Getting Rubeus.${clearColor}"
 git clone https://github.com/GhostPack/Rubeus.git
 
+echo -e "${green}Getting Certify.${clearColor}"
+git clone https://github.com/GhostPack/Certify.git
+
 # Get WinPeas
 echo -e "${green}Cloning PEASS-ng${clearColor}"
 git clone git@github.com:carlospolop/PEASS-ng.git

@@ -32,8 +32,8 @@ This table describes the tools installed by the script and their common use case
 Use the following commands on a Linux system to run the script. 
 
 ```bash
-git clone https://github.com/TheHackerWitch-Official/Install-Hacking-Tools.git
-cd Install-Hacking-Tools/
+git clone https://github.com/TheHackerWitch-Official/ctf-scripts.git
+cd get-tools/Install-Hacking-Tools/
 chmod +x *.sh 
 ./getTools.sh
 ```
